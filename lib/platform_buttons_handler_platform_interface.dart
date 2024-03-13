@@ -28,8 +28,4 @@ abstract class PlatformButtonsHandlerPlatform extends PlatformInterface {
     return _instance.getPlatformVersion();
     // throw UnimplementedError('platformVersion() has not been implemented.');
   }
-
-  onPlatformButtonPressed() {
-    return _instance.onPlatformButtonPressed();
-  }
 }

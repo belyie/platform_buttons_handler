@@ -23,13 +23,6 @@ class _MyAppState extends State<MyApp> {
   void initState() {
     super.initState();
     initPlatformState();
-    initT();
-  }
-
-  void initT() {
-    final test = _platformButtonsHandlerPlugin.test();
-    print('test:');
-    print(test);
   }
 
   // Platform messages are asynchronous, so we initialize in an async method.

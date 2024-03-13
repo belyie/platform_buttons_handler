@@ -4,8 +4,4 @@ class PlatformButtonsHandler {
   Future<String?> getPlatformVersion() {
     return PlatformButtonsHandlerPlatform.instance.getPlatformVersion();
   }
-
-  test() {
-    return PlatformButtonsHandlerPlatform.instance.onPlatformButtonPressed();
-  }
 }
